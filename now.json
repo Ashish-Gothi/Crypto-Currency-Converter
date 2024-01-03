@@ -3,6 +3,6 @@
     "builds": [
       { "src": "crypto-server.js", "use": "@now/node" }
     ],
-    "routes": [{ "src": "/(.*)", "dest": "/crypto-server.js.js" }]
+    "routes": [{ "src": "/(.*)", "dest": "/crypto-server.js" }]
   }
   
