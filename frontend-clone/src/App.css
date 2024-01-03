@@ -1,0 +1,109 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #777;
+  font-size: 0.8em;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+select,
+input {
+  padding: 10px;
+  border: 1px solid #777;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+}
+select{
+  width: 90%;
+}
+
+select:hover,
+select:focus,
+input:hover,
+input:focus {
+  border-color: #0056b3;
+}
+
+.button-container {
+  width: 100%;
+  margin-top: 10px;
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.success-alert {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  font-size: 0.8em;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
